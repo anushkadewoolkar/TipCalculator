@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         double addedBill = billNumber * (tipNumber/100);
         double totalBill = addedBill + billNumber;
+        double eisha = 0;
 
         finalBill.setText("Final Bill: " + totalBill);
 
