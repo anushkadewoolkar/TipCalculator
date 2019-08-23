@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         EditText percent = (EditText) findViewById(R.id.editText2);
         EditText finalBill =  (EditText) findViewById(R.id.editText6);
 
+        
         double billNumber = Double.parseDouble(bill.getText().toString().trim());
         double tipNumber = Double.parseDouble(tip.getText().toString().trim());
 
