@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/layout"
-    android:background="@android:color/darker_gray"
+    android:background="@drawable/gradient_list"
     tools:context=".MainActivity">
 
     <EditText
@@ -69,7 +69,7 @@
         app:layout_constraintHorizontal_bias="0.361"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.621" />
+        app:layout_constraintVertical_bias="0.607" />
 
     <EditText
         android:id="@+id/editText6"
